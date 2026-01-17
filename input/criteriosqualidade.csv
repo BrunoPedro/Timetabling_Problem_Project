@@ -1,0 +1,6 @@
+Aulas em Sobrelotação;C05 - C12 > 0
+Aulas com Salas S/ Caractristicas;C10 notin C13
+Todas as aulas sem sala;C11 equal vazio
+Todas as aulas que não necessitam de sala; C10 equal #Não_necessita_de_sala
+Aulas Sem Sala;C11 equal vazio and C10 notequal #Não_necessita_de_sala
+Aulas que não tem que ter sala Atribuida;C11 notequal vazio and C10 equal #Não_necessita_de_sala
